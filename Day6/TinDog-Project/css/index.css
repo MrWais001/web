@@ -1,0 +1,161 @@
+body {
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+#title {
+    background-color: #9BB8CD;
+    padding: 3% 15%;
+}
+h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 3.5rem;
+    color: #fff;
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-size: 2rem;
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+
+.nav-item {
+    font-size: 1.rem;
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: "Montserrat-light";
+    font-size: 1.2rem;
+}
+
+.title-btn {
+    margin: 5% 3% 5% 0;
+}
+
+.title-pic {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* feature */
+#features {
+    padding: 7% 15% 7%;
+    position: relative;
+    background-color: #fff;
+}
+
+h3 {
+    line-height: 1;
+    font-weight: bold;
+    font-family: "Montserrat-Bold";
+}
+
+p {
+    color: gray;
+}
+.features-item {
+    font-family: "Montserrat-Bold";
+    text-align: center;
+    padding: 5%;
+}
+.icon {
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #9BB8CD;
+}
+
+/* testimonials */
+
+#testimonials {
+
+    text-align: center;
+    background-color: #9BB8CD;
+}
+.test-pic {
+    width: 10%;
+    border-radius: 100px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+h2 {
+    font-family: "Montserrat-Bold";
+    font-weight: bold;
+}
+
+
+
+/* Press */
+#press {
+    background-color: #9BB8CD;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.press-pic {
+    width: 15%;
+    margin: 0 30px;
+}
+
+/* pricing */
+#pricing {
+    text-align: center;
+    margin: 3% 10%;
+}
+
+h2 {
+    font-family: "Montserrat-Bold";
+    font-weight: bolder;
+}
+
+
+@media (max-width: 1028px) {
+    .title-pic {
+        transform: rotate(0);
+        position: static;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+/* cta */
+
+#cta {
+    text-align: center;
+    background-color: #9BB8CD;
+    padding: 7% 15%;
+}
+
+.cta-h3 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 3rem;
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+.btn {
+    margin: 0 2%;
+}
+
+/* footer */
+#footer {
+    text-align: center;
+    background-color: #fff;
+    padding: 3% 8%;
+}
+
+.footer-link {
+    margin: 3% 3%;
+}
